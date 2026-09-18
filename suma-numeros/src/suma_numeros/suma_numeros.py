@@ -1,7 +1,7 @@
 def main() -> None:
-    Nusuario = int(input("Digite un numero: "))
-    Nusuario2 = int(input("Digite un segundo numero: "))
-    resultado = Nusuario + Nusuario2
-    print("La suma de sus numeros es:", resultado)
+    numero1 = float(input("Ingrese el primer número: "))
+    numero2 = float(input("Ingrese el segundo número: "))
+    suma = numero1 + numero2
+    print(f"La suma de {numero1} y {numero2} es {suma}.")
 
 main()
